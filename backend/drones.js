@@ -4,26 +4,15 @@ const drones = [
     nombre: "EcoFlyer",
     estado: "disponible",
     bateria: 90,
-<<<<<<< HEAD
     ubicacion: { lat: -34.6037, lng: -58.3816 },
     velocidad: 0,
     pesoMaximo: 5,
     entregasRealizadas: 0,
     distanciaRecorrida: 0
-=======
-    ubicacion: {
-      lat: -34.6037,
-      lng: -58.3816
-    },
-    velocidad: 12,
-    pesoMaximo: 5,
-    entregasRealizadas: 42
->>>>>>> e9bbd67f6308a39675925ff6a9626d04f921676d
   },
   {
     id: "drone-002",
     nombre: "SkyFast",
-<<<<<<< HEAD
     estado: "disponible",
     bateria: 65,
     ubicacion: { lat: -34.6010, lng: -58.3790 },
@@ -64,59 +53,6 @@ const drones = [
     pesoMaximo: 7,
     entregasRealizadas: 0,
     distanciaRecorrida: 0
-  }
-];
-
-module.exports = drones;
-=======
-    estado: "en_vuelo",
-    bateria: 65,
-    ubicacion: {
-      lat: -34.6010,
-      lng: -58.3790
-    },
-    velocidad: 18,
-    pesoMaximo: 8,
-    entregasRealizadas: 31
-  },
-  {
-    id: "drone-003",
-    nombre: "TurboWing",
-    estado: "cargando",
-    bateria: 25,
-    ubicacion: {
-      lat: -34.6050,
-      lng: -58.3840
-    },
-    velocidad: 10,
-    pesoMaximo: 6,
-    entregasRealizadas: 19
-  },
-  {
-    id: "drone-004",
-    nombre: "AeroMax",
-    estado: "mantenimiento",
-    bateria: 100,
-    ubicacion: {
-      lat: -34.6070,
-      lng: -58.3870
-    },
-    velocidad: 0,
-    pesoMaximo: 10,
-    entregasRealizadas: 58
-  },
-  {
-    id: "drone-005",
-    nombre: "FlashAir",
-    estado: "disponible",
-    bateria: 77,
-    ubicacion: {
-      lat: -34.6005,
-      lng: -58.3765
-    },
-    velocidad: 20,
-    pesoMaximo: 4,
-    entregasRealizadas: 27
   }
 ];
 
@@ -173,4 +109,3 @@ module.exports = {
   getDrones,
   tickDrones,
 };
->>>>>>> e9bbd67f6308a39675925ff6a9626d04f921676d
